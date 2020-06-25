@@ -6,16 +6,9 @@
 /*   By: jasimela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/25 10:10:16 by jasimela          #+#    #+#             */
-/*   Updated: 2020/06/25 12:49:57 by jasimela         ###   ########.fr       */
+/*   Updated: 2020/06/25 15:33:13 by jasimela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
-#include <stdio.h>
-
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 int ft_recursive_factorial(int nb)
 {
@@ -26,10 +19,3 @@ int ft_recursive_factorial(int nb)
 	else
 		return(0);
 }
-
-/*int main()
-{
-	ft_recursive_factorial(42);
-	printf("%d\n", ft_recursive_factorial(5));
-	return(0);
-*\	}
